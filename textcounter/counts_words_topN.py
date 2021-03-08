@@ -103,7 +103,7 @@ def counter_words(file_path, N):
     plt.plot([],[], color="white", marker=".", linestyle="None", label=r"# words:      %6.i" %number_of_words)
     plt.plot([],[], color="white", marker=".", linestyle="None", label=r"# characters: %6.i" %number_of_characters)
     plt.legend(frameon=False, fancybox=True, loc="best", prop={"size": 10})
-    plt.savefig("FIGURE_TOP_N_WORD/histogram_freq_words_"+os.path.basename(file_path)+".pdf", bbox_inches="tight")
+    #plt.savefig("FIGURE_TOP_N_WORD/histogram_freq_words_"+os.path.basename(file_path)+".pdf", bbox_inches="tight")
     #plt.show()
     print("-------------------------------------")
     print("Statistics of the text:\n")
