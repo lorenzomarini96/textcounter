@@ -19,7 +19,7 @@
 ### Example
 
 ```
-python count_letters.py texts/infinito.txt
+python3 count_letters.py -hist texts/infinito.
 ```
 
 <img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
