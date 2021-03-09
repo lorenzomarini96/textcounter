@@ -22,7 +22,7 @@
 python3 count_letters.py -hist texts/infinito.
 ```
 
-<img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
+<img src="https://user-images.githubusercontent.com/55988954/110462697-51926180-80d1-11eb-8cb2-18219ab7e54e.png" width="700" /> 
 
 
 ## Count number of words
