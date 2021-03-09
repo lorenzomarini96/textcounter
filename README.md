@@ -43,33 +43,6 @@ The textcounter package aims to read an input file and create:
 
 ### Prerequisites
 
-## Repo structure
-```
-textcounter/
-├── LICENSE
-├── README.md
-├── docs
-├── tests
-│   ├── README.md
-│   ├── __init__.py
-│   └── texts
-│       ├── infinito.txt
-│       ├── test.txt
-│       └── yellow_submarine.txt
-└── textcounter
-    ├── README.md
-    ├── __init__.py
-    ├── count_letters.py
-    ├── count_words.py
-    ├── count_words_find.py
-    ├── counts_words_topN.py
-    ├── figures_count_letters
-    ├── figures_count_words
-    ├── figures_find_words
-    ├── figures_topN_words
-    ├── text_DantesInferno
-    └── texts
-```
 ## textcounter package
 
 ### Count number of letters
@@ -137,6 +110,33 @@ python count_words_topN.py texts/infinito.txt
 
 <img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
 
+## Repo structure
+```
+textcounter/
+├── LICENSE
+├── README.md
+├── docs
+├── tests
+│   ├── README.md
+│   ├── __init__.py
+│   └── texts
+│       ├── infinito.txt
+│       ├── test.txt
+│       └── yellow_submarine.txt
+└── textcounter
+    ├── README.md
+    ├── __init__.py
+    ├── count_letters.py
+    ├── count_words.py
+    ├── count_words_find.py
+    ├── counts_words_topN.py
+    ├── figures_count_letters
+    ├── figures_count_words
+    ├── figures_find_words
+    ├── figures_topN_words
+    ├── text_DantesInferno
+    └── texts
+```
 
 ## Contributing
 
@@ -147,6 +147,6 @@ When contributing to this repository, please first discuss the change you wish t
 
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/lorenzomarini96/textcounter/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
