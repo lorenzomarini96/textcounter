@@ -30,10 +30,10 @@ python3 count_letters.py -hist texts/infinito.
 ### Example
 
 ```
-python count_words.py texts/infinito.txt
+python count_words.py texts/test.txt
 ```
 
-<img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
+<img src="https://user-images.githubusercontent.com/55988954/110466240-cd8ea880-80d5-11eb-85a3-af386e349ef8.png" width="700" /> 
 
 ```
 -------------------------------------
