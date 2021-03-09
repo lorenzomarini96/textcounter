@@ -16,17 +16,33 @@ The textcounter package aims to read an input file and create:
 
 
 # Table of Contents
+* [Getting Started]()
+    * [Prerequisites]()
 
-[Count number of letters](https://github.com/lorenzomarini96/textcounter#count-number-of-letters)
+* [Count number of letters](https://github.com/lorenzomarini96/textcounter#count-number-of-letters)
 
-[Count number of words](https://github.com/lorenzomarini96/textcounter#count-number-of-words)
+* [Count number of words](https://github.com/lorenzomarini96/textcounter#count-number-of-words)
 
-[Count specific words](https://github.com/lorenzomarini96/textcounter#count-specific-words)
+* [Count specific words](https://github.com/lorenzomarini96/textcounter#count-specific-words)
 
-[Count top N words](https://github.com/lorenzomarini96/textcounter#count-top-n-words)
+* [Count top N words](https://github.com/lorenzomarini96/textcounter#count-top-n-words)
+
+* [Repo structure](https://github.com/lorenzomarini96/textcounter#repo-structure)
+
+* [Contributing]()
+
+* [Author]()
+
+* [License]()
+
+* [Acknowledgments]()
 
 
-# Repo structure
+## Getting Started
+
+### Prerequisites
+
+## Repo structure
 ```
 textcounter/
 ├── LICENSE
@@ -55,7 +71,6 @@ textcounter/
     ├── text_DantesInferno
     └── texts
 ```
-
 
 ## Count number of letters
 
@@ -122,3 +137,17 @@ python count_words_topN.py texts/infinito.txt
 ```
 
 <img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
+
+
+## Contributing
+
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+## Author
+- Lorenzo Marini - *Initial work*
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments
