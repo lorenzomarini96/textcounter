@@ -35,6 +35,28 @@ python count_words.py texts/infinito.txt
 
 <img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
 
+```
+-------------------------------------
+Statistics of the text:
+
+number of words:         13
+number of lines:          3
+number of letters:       52
+number of characters:    75
+-------------------------------------
+Frequencies of words:
+
+1) questo          -->  23.08%
+2) testo           -->  23.08%
+3) è               -->  15.38%
+4) un              -->  15.38%
+5) non             -->  7.69%
+6) test            -->  7.69%
+7) invece          -->  7.69%
+-------------------------------------
+```
+
+
 ## Count specific words
 
 ### Example
