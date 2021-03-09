@@ -19,14 +19,14 @@ The textcounter package aims to read an input file and create:
 * [Getting Started]()
     * [Prerequisites]()
 
-* textcounter package
-* [Count number of letters](https://github.com/lorenzomarini96/textcounter#count-number-of-letters)
+* [textcounter package]()
+    * [Count number of letters](https://github.com/lorenzomarini96/textcounter#count-number-of-letters)
 
-* [Count number of words](https://github.com/lorenzomarini96/textcounter#count-number-of-words)
+    * [Count number of words](https://github.com/lorenzomarini96/textcounter#count-number-of-words)
 
-* [Count specific words](https://github.com/lorenzomarini96/textcounter#count-specific-words)
+    * [Count specific words](https://github.com/lorenzomarini96/textcounter#count-specific-words)
 
-* [Count top N words](https://github.com/lorenzomarini96/textcounter#count-top-n-words)
+    * [Count top N words](https://github.com/lorenzomarini96/textcounter#count-top-n-words)
 
 * [Repo structure](https://github.com/lorenzomarini96/textcounter#repo-structure)
 
