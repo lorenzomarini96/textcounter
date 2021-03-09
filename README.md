@@ -49,55 +49,11 @@ textcounter/
     ├── count_words_find.py
     ├── counts_words_topN.py
     ├── figures_count_letters
-    │   └── infinito.txt.png
     ├── figures_count_words
-    │   ├── histogram_freq_words_infinito.txt.pdf
-    │   ├── histogram_freq_words_test.txt.pdf
-    │   ├── histogram_freq_words_test.txt.png
-    │   └── histogram_freq_words_yellow_submarine.txt.pdf
     ├── figures_find_words
-    │   ├── histogram_freq_words_inferno_canto1.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto10.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto2.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto3.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto4.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto5.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto6.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto7.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto8.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto9.txt.pdf
-    │   ├── histogram_freq_words_infinito.txt.pdf
-    │   ├── histogram_freq_words_test.txt.pdf
-    │   └── histogram_freq_words_yellow_submarine.txt.pdf
     ├── figures_topN_words
-    │   ├── histogram_freq_words_inferno_canto1.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto10.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto2.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto3.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto4.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto5.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto6.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto7.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto8.txt.pdf
-    │   ├── histogram_freq_words_inferno_canto9.txt.pdf
-    │   ├── histogram_freq_words_infinito.txt.pdf
-    │   ├── histogram_freq_words_test.txt.pdf
-    │   └── histogram_freq_words_yellow_submarine.txt.pdf
     ├── text_DantesInferno
-    │   ├── inferno_canto1.txt
-    │   ├── inferno_canto10.txt
-    │   ├── inferno_canto2.txt
-    │   ├── inferno_canto3.txt
-    │   ├── inferno_canto4.txt
-    │   ├── inferno_canto5.txt
-    │   ├── inferno_canto6.txt
-    │   ├── inferno_canto7.txt
-    │   ├── inferno_canto8.txt
-    │   └── inferno_canto9.txt
     └── texts
-        ├── infinito.txt
-        ├── test.txt
-        └── yellow_submarine.txt
 ```
 
 
