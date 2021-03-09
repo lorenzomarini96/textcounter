@@ -16,10 +16,10 @@ The textcounter package aims to read an input file and create:
 
 
 # Table of Contents
-* [Getting Started]()
-    * [Prerequisites]()
+* [Getting Started](https://github.com/lorenzomarini96/textcounter#getting-started)
+    * [Prerequisites](https://github.com/lorenzomarini96/textcounter#prerequisites)
 
-* [textcounter package]()
+* [textcounter package](https://github.com/lorenzomarini96/textcounter#textcounter-package)
     * [Count number of letters](https://github.com/lorenzomarini96/textcounter#count-number-of-letters)
 
     * [Count number of words](https://github.com/lorenzomarini96/textcounter#count-number-of-words)
@@ -70,10 +70,11 @@ textcounter/
     ├── text_DantesInferno
     └── texts
 ```
+## textcounter package
 
-## Count number of letters
+### Count number of letters
 
-### Example
+#### Example
 
 ```
 python3 count_letters.py -hist texts/infinito.
@@ -82,9 +83,6 @@ python3 count_letters.py -hist texts/infinito.
 <img src="https://user-images.githubusercontent.com/55988954/110463026-b2219e80-80d1-11eb-8188-e0eac2a4aea6.png" width="800" /> 
 
 Output on command line:
-
-
-## textcounter package
 
 ### Count number of words
 
