@@ -2,10 +2,19 @@
 
 <img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
 
-Suppose we want to count **how many times a given letter is used in a text file**. The fastest way (at least compared to a human being) can be to create a program that, reading an input file, scrolls through all the lines and is able to count the number of words, letters and characters in the text. 
-We also would also like to be able to **count the relative frequency** between the various objects analyzed and show a histogram of the frequencies in a more easily readable way.
+Suppose we want to count how many times a given letter is used in a text file. The fastest way (at least compared to a human being) can be to create a program that, reading an input file, scrolls through all the lines and is able to count the number of words, letters and characters in the text.
 
-It may seem like a useless and somewhat tedious operation, but it can be a useful exercise in learning how to use python for data analysis purposes.
+We also would also like to be able to count the relative frequency between the various objects analyzed and show a histogram of the frequencies in a more easily readable way.
+It may seem like a useless and somewhat tedious operation (certainly for my friends :)), but it can be a useful exercise to learn how to use python for data analysis purposes.
+
+The textcounter package aims to read an input file and create:
+
+- the histogram of the occurrences of the **letters**
+- the histogram of the occurrences of the **words**
+- the histogram of the occurrences of the **N** (integer value chosen by the user) **most used words**
+- the histogram of only the **words chosen** by the user
+
+
 # Table of Contents
 
 [Count number of letters](https://github.com/lorenzomarini96/textcounter#count-number-of-letters)
@@ -15,6 +24,81 @@ It may seem like a useless and somewhat tedious operation, but it can be a usefu
 [Count specific words](https://github.com/lorenzomarini96/textcounter#count-specific-words)
 
 [Count top N words](https://github.com/lorenzomarini96/textcounter#count-top-n-words)
+
+
+# Repo structure
+```
+textcounter/
+├── LICENSE
+├── README.md
+├── docs
+│   └── picture
+│       └── logo_textcounter.png
+├── tests
+│   ├── README.md
+│   ├── __init__.py
+│   └── texts
+│       ├── infinito.txt
+│       ├── test.txt
+│       └── yellow_submarine.txt
+└── textcounter
+    ├── README.md
+    ├── __init__.py
+    ├── count_letters.py
+    ├── count_words.py
+    ├── count_words_find.py
+    ├── counts_words_topN.py
+    ├── figures_count_letters
+    │   └── infinito.txt.png
+    ├── figures_count_words
+    │   ├── histogram_freq_words_infinito.txt.pdf
+    │   ├── histogram_freq_words_test.txt.pdf
+    │   ├── histogram_freq_words_test.txt.png
+    │   └── histogram_freq_words_yellow_submarine.txt.pdf
+    ├── figures_find_words
+    │   ├── histogram_freq_words_inferno_canto1.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto10.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto2.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto3.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto4.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto5.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto6.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto7.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto8.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto9.txt.pdf
+    │   ├── histogram_freq_words_infinito.txt.pdf
+    │   ├── histogram_freq_words_test.txt.pdf
+    │   └── histogram_freq_words_yellow_submarine.txt.pdf
+    ├── figures_topN_words
+    │   ├── histogram_freq_words_inferno_canto1.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto10.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto2.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto3.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto4.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto5.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto6.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto7.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto8.txt.pdf
+    │   ├── histogram_freq_words_inferno_canto9.txt.pdf
+    │   ├── histogram_freq_words_infinito.txt.pdf
+    │   ├── histogram_freq_words_test.txt.pdf
+    │   └── histogram_freq_words_yellow_submarine.txt.pdf
+    ├── text_DantesInferno
+    │   ├── inferno_canto1.txt
+    │   ├── inferno_canto10.txt
+    │   ├── inferno_canto2.txt
+    │   ├── inferno_canto3.txt
+    │   ├── inferno_canto4.txt
+    │   ├── inferno_canto5.txt
+    │   ├── inferno_canto6.txt
+    │   ├── inferno_canto7.txt
+    │   ├── inferno_canto8.txt
+    │   └── inferno_canto9.txt
+    └── texts
+        ├── infinito.txt
+        ├── test.txt
+        └── yellow_submarine.txt
+```
 
 
 ## Count number of letters
