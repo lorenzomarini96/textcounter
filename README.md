@@ -2,9 +2,9 @@
 
 <img src="https://user-images.githubusercontent.com/55988954/110457149-9ebf0500-80ca-11eb-88ed-6170e939f6b7.png" width="700" /> 
 
-Suppose we want to count how many times a given letter is used in a text file. The fastest way (at least compared to a human being) can be to create a program that, reading an input file, scrolls through all the lines and is able to count the number of words, letters and characters in the text.
+Suppose we want to **count how many times a given letter, or word, are used in a text file**. The fastest way (at least compared to a human being) can be to create a program that, reading an input file, scrolls through all the lines and is able to count the number of of these in the text.
 
-We also would also like to be able to count the relative frequency between the various objects analyzed and show a histogram of the frequencies in a more easily readable way.
+We also would also like to be able to **compute the relative frequency** between the various objects analyzed and show a histogram of the frequencies in a more easily readable way.
 It may seem like a useless and somewhat tedious operation (certainly for my friends :)), but it can be a useful exercise to learn how to use python for data analysis purposes.
 
 The textcounter package aims to read an input file and create:
