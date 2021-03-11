@@ -1,5 +1,6 @@
 import string
 import operator
+import os
 
 import matplotlib.pyplot as plt
 import seaborn 
@@ -15,7 +16,6 @@ class TextCounter:
         with open(file) as input_file:   
             text = input_file.read()
             return text
-    
     
     def summary(self):
         """Compute general information about the statistic of the text"""
@@ -265,10 +265,13 @@ class TextCounter:
         return search_word_dict
 
 if __name__ == "__main__":
-    file = "testo.txt"
+    #file = "testo.txt"
+    file = "texts/infinito.txt"
     # Creo l'istanza della classe
     istanza = TextCounter(file)
-    #print(istanza.number_of_letters)
     print(istanza.summary())
+
     dizionario_lettere = istanza.counter_letters()
     dizionario_parole  = istanza.counter_words()
+    dizionario_parole_top_N = istanza.counter_top_N_words(3)
+    dizionario_cerca_parole = istanza.counter_search_words("sempre" "e")
